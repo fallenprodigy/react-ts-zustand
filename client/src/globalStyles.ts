@@ -9,7 +9,8 @@ const GlobalStyle = createGlobalStyle`
   body {
     margin: 0;
     padding: 0;
-    background: teal;
+    background:  #191919;
+    color: #D6D5A8;
     font-family: "Open-Sans", Helvetica, Sans-Serif;
   }
 `;
