@@ -1,5 +1,6 @@
 const Koa = require("koa");
 const { koaBody } = require("koa-body");
+const cors = require("koa-cors");
 
 const app = new Koa();
 
@@ -7,9 +8,10 @@ const app = new Koa();
 app.use(koaBody());
 
 // Require the routers
-let items = require("./data.js");
+let data = require("./data.js");
 
 // use the routes
-app.use(items.routes());
+app.use(data.routes());
+app.use(cors());
 
-app.listen(3000);
+app.listen(4000);
