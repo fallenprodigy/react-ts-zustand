@@ -28,25 +28,8 @@ const columns = [
   },
 ];
 
-// const data = [
-//   {
-//     id: 1,
-//     title: "Beetlejuice",
-//     year: "1988",
-//   },
-//   {
-//     id: 2,
-//     title: "Ghostbusters",
-//     year: "1984",
-//   },
-// ];
-
 const Table = () => {
   const tableData = useStore((state: any) => state.tableData);
-
-  console.log(tableData);
-
-  //   const dd = tableData.map(())
 
   return (
     <div>

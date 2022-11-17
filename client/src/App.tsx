@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import PieChart from "./components/PieChart";
 import Table from "./components/Table";
 import useStore from "./store";
 import { Text, Wrapper } from "./StyledApp";
@@ -21,6 +22,7 @@ function App() {
   return (
     <Wrapper>
       <Text>the best react table you will ever see (no joke)</Text>
+      <PieChart />
       <Table />
     </Wrapper>
   );
