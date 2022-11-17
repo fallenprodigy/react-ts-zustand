@@ -1,8 +1,11 @@
 import { useEffect } from "react";
+import AmazingModal from "./components/Modal";
 import PieChart from "./components/PieChart";
 import Table from "./components/Table";
 import useStore from "./store";
+import "bootstrap/dist/css/bootstrap.min.css";
 import { Text, Wrapper } from "./StyledApp";
+import { Button } from "reactstrap";
 
 function App() {
   const setTableData = useStore((state: any) => state.setTableData);
@@ -21,7 +24,9 @@ function App() {
 
   return (
     <Wrapper>
-      <Text>the best react table you will ever see (no joke)</Text>
+      <Text>the best react table in the world (no joke)</Text>
+      <AmazingModal />
+      <Button color="danger">Delete</Button>
       <PieChart />
       <Table />
     </Wrapper>

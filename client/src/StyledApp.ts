@@ -9,3 +9,9 @@ export const Text = styled.h1`
   text-align: center;
   padding: 1rem;
 `;
+
+export const InputWrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+`;

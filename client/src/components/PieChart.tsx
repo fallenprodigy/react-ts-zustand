@@ -10,13 +10,13 @@ const PieChart = () => {
     <div>
       <Chart
         type="pie"
-        width={1349}
+        width={500}
         height={550}
-        series={[44, 55, 13, 43, 22]}
+        series={[44, 55, 13, 43]}
         options={{
           noData: { text: "Empty Data" },
-          // labels: tableData.map((table: any) => table.address.city),
-          // ...new Set(array)
+          labels: ["Chicago", "New York", "Los Angeles", "San Diego"],
+          // labels: new Set(tableData.map((table: any) => table.address.city)),
         }}
       ></Chart>
     </div>
