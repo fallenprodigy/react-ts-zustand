@@ -4,7 +4,23 @@ import useStore from "../store";
 const PieChart = () => {
   const tableData = useStore((state: any) => state.tableData);
 
-  console.log(tableData);
+  const findCity = tableData.filter((candidate: any) =>
+    candidate.city.includes("New York")
+  );
+  const findCity2 = tableData.filter((candidate: any) =>
+    candidate.city.includes("Chicago")
+  );
+  const findCity3 = tableData.filter((candidate: any) =>
+    candidate.city.includes("Los Angeles")
+  );
+  const findCity4 = tableData.filter((candidate: any) =>
+    candidate.city.includes("San Diego")
+  );
+
+  const newYork = findCity.length;
+  const chiacgo = findCity2.length;
+  const losangeles = findCity3.length;
+  const sandiego = findCity4.length;
 
   return (
     <div>
@@ -12,11 +28,10 @@ const PieChart = () => {
         type="pie"
         width={500}
         height={550}
-        series={[44, 55, 13, 43]}
+        series={[newYork, chiacgo, losangeles, sandiego]}
         options={{
           noData: { text: "Empty Data" },
           labels: ["Chicago", "New York", "Los Angeles", "San Diego"],
-          // labels: new Set(tableData.map((table: any) => table.address.city)),
         }}
       ></Chart>
     </div>

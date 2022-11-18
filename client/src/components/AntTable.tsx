@@ -5,6 +5,8 @@ import useStore from "../store";
 import { StyledButtons } from "../StyledApp";
 
 const AntTable = () => {
+  const randomNumber = Math.floor(Math.random() * 1000);
+
   const columns = [
     {
       title: "ID",
@@ -60,15 +62,23 @@ const AntTable = () => {
   ];
   const [isEditing, setIsEditing] = useState(false);
   const [editingUser, seteditingUser] = useState<any>(null);
+  const [isModalOpen, setIsModalOpen] = useState(false);
   const tableData = useStore((state: any) => state.tableData);
   const [data, setData] = useState(tableData);
+  const [addUser, setAddUser] = useState({
+    id: randomNumber,
+    name: "",
+    email: "",
+    gender: "",
+    city: "",
+    phone: "",
+  });
 
   useEffect(() => {
     setData(tableData);
   }, [tableData]);
 
   const onAddYourInfo = () => {
-    const randomNumber = Math.floor(Math.random() * 1000);
     const newAddedInfo = {
       id: randomNumber,
       name: "Giorgi",
@@ -105,11 +115,95 @@ const AntTable = () => {
     seteditingUser(null);
   };
 
+  const showModal = () => {
+    setIsModalOpen(true);
+  };
+
+  const handleOk = () => {
+    setData((pre: any) => {
+      return [...pre, addUser];
+    });
+    setAddUser({
+      id: randomNumber,
+      name: "",
+      email: "",
+      gender: "",
+      city: "",
+      phone: "",
+    });
+    setIsModalOpen(false);
+  };
+
+  const handleCancel = () => {
+    setIsModalOpen(false);
+  };
+
   return (
     <div>
-      <Button style={{ margin: "1rem 0" }} onClick={onAddYourInfo}>
+      <Button style={{ margin: "1rem 0" }} onClick={showModal}>
         Add Your Info
       </Button>
+      <Modal
+        title="Add User Info"
+        open={isModalOpen}
+        onOk={handleOk}
+        onCancel={handleCancel}
+      >
+        <StyledButtons>
+          <Input
+            value={addUser.name}
+            onChange={(e) => {
+              setAddUser((pre: any) => {
+                return { ...pre, name: e.target.value };
+              });
+            }}
+            type="text"
+            placeholder="Name"
+          />
+          <Input
+            value={addUser.email}
+            onChange={(e) => {
+              setAddUser((pre: any) => {
+                return { ...pre, email: e.target.value };
+              });
+            }}
+            type="email"
+            placeholder="Email"
+          />
+          <Select
+            defaultValue={"select gender"}
+            options={[
+              { value: "male", label: "male" },
+              { value: "female", label: "female" },
+            ]}
+            onChange={(e) => {
+              setAddUser((pre: any) => {
+                return { ...pre, gender: e };
+              });
+            }}
+          />
+          <Input
+            value={addUser.city}
+            onChange={(e) => {
+              setAddUser((pre: any) => {
+                return { ...pre, city: e.target.value };
+              });
+            }}
+            type="text"
+            placeholder="Address"
+          />
+          <Input
+            value={addUser.phone}
+            onChange={(e) => {
+              setAddUser((pre: any) => {
+                return { ...pre, phone: e.target.value };
+              });
+            }}
+            type="text"
+            placeholder="Phone"
+          />
+        </StyledButtons>
+      </Modal>
       <Table
         rowKey={(r) => r.id}
         bordered={true}
@@ -118,7 +212,7 @@ const AntTable = () => {
         dataSource={data}
       />
       <Modal
-        title="Edit User"
+        title="Edit User Info"
         open={isEditing}
         okText="Save"
         onCancel={() => {

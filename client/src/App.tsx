@@ -27,7 +27,6 @@ function App() {
         <PieChart />
       </Container>
       <AntTable />
-      {/* <Table newFormData={formData} setNewFormData={setFormData} /> */}
     </Wrapper>
   );
 }
