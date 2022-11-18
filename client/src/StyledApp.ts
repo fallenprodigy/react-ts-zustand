@@ -1,7 +1,8 @@
 import styled from "styled-components";
 
 export const Wrapper = styled.div`
-  padding: 1rem 2rem;
+  height: 100vh;
+  padding: 1rem 5rem;
 `;
 
 export const Text = styled.h1`

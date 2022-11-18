@@ -4,7 +4,7 @@ const useStore = create((set) => ({
   tableData: [],
   setTableData: (tableData: any) =>
     set((state: any) => ({
-      ...state,
+      state,
       tableData,
     })),
 }));

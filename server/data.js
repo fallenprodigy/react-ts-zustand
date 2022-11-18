@@ -11,6 +11,7 @@ let data = [
     name: "Roman Ayala",
     email: "romanayala@gology.com",
     gender: "male",
+    city: "Chicago",
     address: {
       street: "Garnet Street",
       city: "Chicago",
@@ -22,6 +23,7 @@ let data = [
     name: "Melva Rogers",
     email: "melvarogers@gology.com",
     gender: "female",
+    city: "New York",
     address: {
       street: "Gardner Avenue",
       city: "New York",
@@ -33,6 +35,7 @@ let data = [
     name: "Carla Cain",
     email: "carlacain@gology.com",
     gender: "female",
+    city: "Los Angeles",
     address: {
       street: "Strong Place",
       city: "Los Angeles",
@@ -44,6 +47,7 @@ let data = [
     name: "Rhoda George",
     email: "rhodageorge@gology.com",
     gender: "female",
+    city: "Chicago",
     address: {
       street: "Harway Avenue",
       city: "Chicago",
@@ -55,6 +59,7 @@ let data = [
     name: "Atkins Cummings",
     email: "atkinscummings@gology.com",
     gender: "male",
+    city: "New York",
     address: {
       street: "Troy Avenue",
       city: "New York",
@@ -66,6 +71,7 @@ let data = [
     name: "Francine Rosales",
     email: "francinerosales@gology.com",
     gender: "female",
+    city: "San Diego",
     address: {
       street: "Aitken Place",
       city: "San Diego",
@@ -77,6 +83,7 @@ let data = [
     name: "Malone Petersen",
     email: "malonepetersen@gology.com",
     gender: "male",
+    city: "Chicago",
     address: {
       street: "Florence Avenue",
       city: "Chicago",
@@ -88,6 +95,7 @@ let data = [
     name: "Sheila Hill",
     email: "sheilahill@gology.com",
     gender: "female",
+    city: "San Diego",
     address: {
       street: "Mill Lane",
       city: "San Diego",
@@ -99,6 +107,7 @@ let data = [
     name: "Huffman Butler",
     email: "huffmanbutler@gology.com",
     gender: "male",
+    city: "Los Angeles",
     address: {
       street: "Clermont Avenue",
       city: "Los Angeles",
@@ -110,6 +119,7 @@ let data = [
     name: "Vilma Jefferson",
     email: "vilmajefferson@gology.com",
     gender: "female",
+    city: "New York",
     address: {
       street: "Bath Avenue",
       city: "New York",
@@ -121,6 +131,7 @@ let data = [
     name: "Cassandra Nguyen",
     email: "cassandranguyen@gology.com",
     gender: "female",
+    city: "Chicago",
     address: {
       street: "Hamilton Avenue",
       city: "Chicago",
@@ -132,6 +143,7 @@ let data = [
     name: "Lenora Clements",
     email: "lenoraclements@gology.com",
     gender: "female",
+    city: "San Diego",
     address: {
       street: "Seba Avenue",
       city: "San Diego",
@@ -143,6 +155,7 @@ let data = [
     name: "Hanson Goodwin",
     email: "hansongoodwin@gology.com",
     gender: "male",
+    city: "New York",
     address: {
       street: "Cranberry Street",
       city: "New York",
@@ -154,6 +167,7 @@ let data = [
     name: "Lauren Fox",
     email: "laurenfox@gology.com",
     gender: "female",
+    city: "Los Angeles",
     address: {
       street: "Prospect Place",
       city: "Los Angeles",
@@ -165,6 +179,7 @@ let data = [
     name: "Augusta Vazquez",
     email: "augustavazquez@gology.com",
     gender: "female",
+    city: "Los Angeles",
     address: {
       street: "Radde Place",
       city: "Los Angeles",
@@ -176,6 +191,7 @@ let data = [
     name: "Craig Knight",
     email: "craigknight@gology.com",
     gender: "male",
+    city: "San Diego",
     address: {
       street: "Franklin Avenue",
       city: "San Diego",
@@ -187,6 +203,7 @@ let data = [
     name: "Viola Mccall",
     email: "violamccall@gology.com",
     gender: "female",
+    city: "New York",
     address: {
       street: "Adelphi Street",
       city: "New York",
@@ -198,6 +215,7 @@ let data = [
     name: "Maryann Watts",
     email: "maryannwatts@gology.com",
     gender: "female",
+    city: "Chicago",
     address: {
       street: "Church Lane",
       city: "Chicago",
@@ -209,6 +227,7 @@ let data = [
     name: "Adriana Diaz",
     email: "adrianadiaz@gology.com",
     gender: "female",
+    city: "San Diego",
     address: {
       street: "Lawton Street",
       city: "San Diego",
@@ -220,6 +239,7 @@ let data = [
     name: "Reid Valentine",
     email: "reidvalentine@gology.com",
     gender: "male",
+    city: "Chicago",
     address: {
       street: "Montague Terrace",
       city: "Chicago",
@@ -231,6 +251,7 @@ let data = [
     name: "Melendez Mathews",
     email: "melendezmathews@gology.com",
     gender: "male",
+    city: "San Diego",
     address: {
       street: "Coyle Street",
       city: "San Diego",
@@ -242,6 +263,7 @@ let data = [
     name: "Cara Wilkerson",
     email: "carawilkerson@gology.com",
     gender: "female",
+    city: "New York",
     address: {
       street: "Bradford Street",
       city: "New York",
@@ -253,6 +275,7 @@ let data = [
     name: "Keith Bennett",
     email: "keithbennett@gology.com",
     gender: "male",
+    city: "New York",
     address: {
       street: "Brighton Court",
       city: "New York",
@@ -264,6 +287,7 @@ let data = [
     name: "Tamra Galloway",
     email: "tamragalloway@gology.com",
     gender: "female",
+    city: "Los Angeles",
     address: {
       street: "Eldert Lane",
       city: "Los Angeles",
@@ -275,6 +299,7 @@ let data = [
     name: "Norton Slater",
     email: "nortonslater@gology.com",
     gender: "male",
+    city: "Los Angeles",
     address: {
       street: "Erasmus Street",
       city: "Los Angeles",
@@ -286,6 +311,7 @@ let data = [
     name: "Suarez Guerra",
     email: "suarezguerra@gology.com",
     gender: "male",
+    city: "Los Angeles",
     address: {
       street: "Leonard Street",
       city: "Los Angeles",
@@ -297,6 +323,7 @@ let data = [
     name: "Lillian Johnson",
     email: "lillianjohnson@gology.com",
     gender: "female",
+    city: "Chicago",
     address: {
       street: "Himrod Street",
       city: "Chicago",
@@ -308,6 +335,7 @@ let data = [
     name: "Mcfarland Humphrey",
     email: "mcfarlandhumphrey@gology.com",
     gender: "male",
+    city: "San Diego",
     address: {
       street: "Garfield Place",
       city: "San Diego",
@@ -319,6 +347,7 @@ let data = [
     name: "Gould Frye",
     email: "gouldfrye@gology.com",
     gender: "male",
+    city: "New York",
     address: {
       street: "Quentin Road",
       city: "New York",
@@ -330,6 +359,7 @@ let data = [
     name: "Sheena Steele",
     email: "sheenasteele@gology.com",
     gender: "female",
+    city: "Chicago",
     address: {
       street: "Lawrence Street",
       city: "Chicago",
@@ -341,6 +371,7 @@ let data = [
     name: "Beatriz Kirk",
     email: "beatrizkirk@gology.com",
     gender: "female",
+    city: "San Diego",
     address: {
       street: "Jewel Street",
       city: "San Diego",
@@ -352,6 +383,7 @@ let data = [
     name: "Riggs Bates",
     email: "riggsbates@gology.com",
     gender: "male",
+    city: "New York",
     address: {
       street: "Campus Place",
       city: "New York",
@@ -363,6 +395,7 @@ let data = [
     name: "Jeanette Michael",
     email: "jeanettemichael@gology.com",
     gender: "female",
+    city: "Chicago",
     address: {
       street: "Cropsey Avenue",
       city: "Chicago",
@@ -374,6 +407,7 @@ let data = [
     name: "Florence Sexton",
     email: "florencesexton@gology.com",
     gender: "female",
+    city: "San Diego",
     address: {
       street: "Bouck Court",
       city: "San Diego",
@@ -385,6 +419,7 @@ let data = [
     name: "Ashley Griffin",
     email: "ashleygriffin@gology.com",
     gender: "male",
+    city: "New York",
     address: {
       street: "India Street",
       city: "New York",
@@ -396,6 +431,7 @@ let data = [
     name: "Janna Cohen",
     email: "jannacohen@gology.com",
     gender: "female",
+    city: "Chicago",
     address: {
       street: "Cameron Court",
       city: "Chicago",
@@ -407,6 +443,7 @@ let data = [
     name: "Harmon Carr",
     email: "harmoncarr@gology.com",
     gender: "male",
+    city: "San Diego",
     address: {
       street: "Kensington Street",
       city: "San Diego",
@@ -418,6 +455,7 @@ let data = [
     name: "Jaclyn Walton",
     email: "jaclynwalton@gology.com",
     gender: "female",
+    city: "San Diego",
     address: {
       street: "Ocean Parkway",
       city: "San Diego",
@@ -429,6 +467,7 @@ let data = [
     name: "Fuentes Hutchinson",
     email: "fuenteshutchinson@gology.com",
     gender: "male",
+    city: "New York",
     address: {
       street: "Ridgecrest Terrace",
       city: "New York",
@@ -440,6 +479,7 @@ let data = [
     name: "Bowers Wooten",
     email: "bowerswooten@gology.com",
     gender: "male",
+    city: "Chicago",
     address: {
       street: "Ralph Avenue",
       city: "Chicago",
@@ -451,6 +491,7 @@ let data = [
     name: "Millie Dotson",
     email: "milliedotson@gology.com",
     gender: "female",
+    city: "New York",
     address: {
       street: "Bokee Court",
       city: "New York",
@@ -462,6 +503,7 @@ let data = [
     name: "Rebekah Wade",
     email: "rebekahwade@gology.com",
     gender: "female",
+    city: "Los Angeles",
     address: {
       street: "Leonora Court",
       city: "Los Angeles",
@@ -473,6 +515,7 @@ let data = [
     name: "Antoinette Sanders",
     email: "antoinettesanders@gology.com",
     gender: "female",
+    city: "San Diego",
     address: {
       street: "Dahlgreen Place",
       city: "San Diego",
@@ -484,6 +527,7 @@ let data = [
     name: "Coleen Ford",
     email: "coleenford@gology.com",
     gender: "female",
+    city: "San Diego",
     address: {
       street: "Story Court",
       city: "San Diego",
@@ -495,6 +539,7 @@ let data = [
     name: "Ericka Miller",
     email: "erickamiller@gology.com",
     gender: "female",
+    city: "Chicago",
     address: {
       street: "Rochester Avenue",
       city: "Chicago",
@@ -506,6 +551,7 @@ let data = [
     name: "Hendrix Best",
     email: "hendrixbest@gology.com",
     gender: "male",
+    city: "Los Angeles",
     address: {
       street: "Foster Avenue",
       city: "Los Angeles",
@@ -517,6 +563,7 @@ let data = [
     name: "Robbie Sosa",
     email: "robbiesosa@gology.com",
     gender: "female",
+    city: "Chicago",
     address: {
       street: "Hunts Lane",
       city: "Chicago",
@@ -528,6 +575,7 @@ let data = [
     name: "Stout Shaw",
     email: "stoutshaw@gology.com",
     gender: "male",
+    city: "Chicago",
     address: {
       street: "Dakota Place",
       city: "Chicago",
@@ -539,6 +587,7 @@ let data = [
     name: "Ferrell Carter",
     email: "ferrellcarter@gology.com",
     gender: "male",
+    city: "Los Angeles",
     address: {
       street: "Auburn Place",
       city: "Los Angeles",
@@ -550,6 +599,7 @@ let data = [
     name: "Leola Dennis",
     email: "leoladennis@gology.com",
     gender: "female",
+    city: "Los Angeles",
     address: {
       street: "Dean Street",
       city: "Los Angeles",
@@ -561,6 +611,7 @@ let data = [
     name: "Lara Oconnor",
     email: "laraoconnor@gology.com",
     gender: "female",
+    city: "Los Angeles",
     address: {
       street: "Herkimer Court",
       city: "Los Angeles",
@@ -572,6 +623,7 @@ let data = [
     name: "Alejandra Cobb",
     email: "alejandracobb@gology.com",
     gender: "female",
+    city: "San Diego",
     address: {
       street: "Lynch Street",
       city: "San Diego",
@@ -583,6 +635,7 @@ let data = [
     name: "Mendez Hahn",
     email: "mendezhahn@gology.com",
     gender: "male",
+    city: "Chicago",
     address: {
       street: "Ludlam Place",
       city: "Chicago",
@@ -594,6 +647,7 @@ let data = [
     name: "Mejia Mays",
     email: "mejiamays@gology.com",
     gender: "male",
+    city: "New York",
     address: {
       street: "Tampa Court",
       city: "New York",
@@ -605,6 +659,7 @@ let data = [
     name: "Bolton Rowe",
     email: "boltonrowe@gology.com",
     gender: "male",
+    city: "New York",
     address: {
       street: "Maujer Street",
       city: "New York",
@@ -616,6 +671,7 @@ let data = [
     name: "Kirkland Atkins",
     email: "kirklandatkins@gology.com",
     gender: "male",
+    city: "Chicago",
     address: {
       street: "Fulton Street",
       city: "Chicago",
@@ -627,6 +683,7 @@ let data = [
     name: "Burgess Strickland",
     email: "burgessstrickland@gology.com",
     gender: "male",
+    city: "New York",
     address: {
       street: "Sumner Place",
       city: "New York",
@@ -638,6 +695,7 @@ let data = [
     name: "Mildred Alvarado",
     email: "mildredalvarado@gology.com",
     gender: "female",
+    city: "San Diego",
     address: {
       street: "Thatford Avenue",
       city: "San Diego",
@@ -649,6 +707,7 @@ let data = [
     name: "Wells Castaneda",
     email: "wellscastaneda@gology.com",
     gender: "male",
+    city: "San Diego",
     address: {
       street: "Cyrus Avenue",
       city: "San Diego",
@@ -660,6 +719,7 @@ let data = [
     name: "Mcclain French",
     email: "mcclainfrench@gology.com",
     gender: "male",
+    city: "San Diego",
     address: {
       street: "Village Court",
       city: "San Diego",
@@ -671,6 +731,7 @@ let data = [
     name: "Anita Branch",
     email: "anitabranch@gology.com",
     gender: "female",
+    city: "New York",
     address: {
       street: "Nassau Avenue",
       city: "New York",
@@ -682,6 +743,7 @@ let data = [
     name: "Downs Hatfield",
     email: "downshatfield@gology.com",
     gender: "male",
+    city: "San Diego",
     address: {
       street: "Locust Avenue",
       city: "San Diego",
@@ -693,6 +755,7 @@ let data = [
     name: "Latasha Tillman",
     email: "latashatillman@gology.com",
     gender: "female",
+    city: "New York",
     address: {
       street: "Williams Place",
       city: "New York",
