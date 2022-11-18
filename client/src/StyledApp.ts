@@ -9,6 +9,10 @@ export const Text = styled.h1`
   width: 100%;
   text-align: center;
   padding: 1rem;
+
+  @media (max-width: 700px) {
+    display: none;
+  }
 `;
 
 export const InputWrapper = styled.div`
@@ -26,6 +30,7 @@ export const Container = styled.div`
 
 export const StyledButtons = styled.div`
   display: flex;
-  gap: 1rem;
+  flex-direction: column;
+  gap: 0.5rem;
   width: 100%;
 `;
