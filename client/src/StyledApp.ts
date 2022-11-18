@@ -15,3 +15,16 @@ export const InputWrapper = styled.div`
   flex-direction: column;
   gap: 0.5rem;
 `;
+
+export const Container = styled.div`
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+`;
+
+export const StyledButtons = styled.div`
+  display: flex;
+  gap: 1rem;
+  width: 100%;
+`;
