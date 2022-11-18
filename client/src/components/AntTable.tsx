@@ -78,20 +78,6 @@ const AntTable = () => {
     setData(tableData);
   }, [tableData]);
 
-  const onAddYourInfo = () => {
-    const newAddedInfo = {
-      id: randomNumber,
-      name: "Giorgi",
-      email: "giorgi@.gmail.com",
-      gender: "male",
-      city: "Tbilisi",
-      phone: "597062423",
-    };
-    setData((pre: any) => {
-      return [...pre, newAddedInfo];
-    });
-  };
-
   const onDeleteUser = (record: any) => {
     Modal.confirm({
       title: "Are you sure, you want to delete this user record?",
